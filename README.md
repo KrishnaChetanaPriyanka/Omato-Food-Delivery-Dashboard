@@ -29,7 +29,6 @@ A star schema approach was used for efficient querying and analysis. The key rel
 - Fact Table: Sales_Transactions (stores all transaction details like food items, payment methods, and quantities).
 
 #### Dimension Tables:
-
 - Date_Dim (to analyze trends over time).
 - Food_Dim (for food category-wise analysis).
 - Payment_Method_Dim (to categorize payment modes).
@@ -60,7 +59,6 @@ To make insights more accessible and visually appealing, multiple Power BI chart
 
 ## Conclusion & Future Recommendations
 The Power BI dashboard provides valuable insights into customer preferences, sales trends, and delivery performance.
-
 ### Future Enhancements:
 - ✅ Predictive Analytics – Implement time-series forecasting for future sales trends.
 - ✅ Customer Segmentation – Identify high-value customers based on purchase behavior.
