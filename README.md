@@ -19,10 +19,10 @@ The data comes from January to April 2023 food delivery transactions, stored in 
 
 ## Power Query for Data Transformation
 Power Query was used to clean and transform the raw datasets before loading them into Power BI. The key steps included:
-- ✅ Merging and Appending Data – Combined sales data from different months into a single dataset.
-- ✅ Data Cleaning – Removed duplicates, handled missing values, and ensured data consistency.
-- ✅ Column Transformation – Extracted useful information such as month and year from date columns.
-- ✅ Data Formatting – Changed data types for better performance in Power BI.
+- Merging and Appending Data – Combined sales data from different months into a single dataset.
+- Data Cleaning – Removed duplicates, handled missing values, and ensured data consistency.
+- Column Transformation – Extracted useful information such as month and year from date columns.
+- Data Formatting – Changed data types for better performance in Power BI.
 
 ## Data Modeling
 A star schema approach was used for efficient querying and analysis. The key relationships include:
@@ -51,18 +51,18 @@ To make insights more accessible and visually appealing, multiple Power BI chart
 ![image](https://github.com/user-attachments/assets/cbe743da-46e1-496e-8c17-41ee5f7fdf14)
 
 ## Key Insights from the Dashboard
-- 🔹 Most Popular Food Item: Samosa (2,427 orders), followed by Butter Chicken (2,044 orders).
-- 🔹 Peak Sales Month: February 2023 (4.4K items sold).
-- 🔹 Most Preferred Payment Method: UPI (1,719 transactions).
-- 🔹 High Delivery Success Rate: 94.25% of orders were delivered successfully.
+- Most Popular Food Item: Samosa (2,427 orders), followed by Butter Chicken (2,044 orders).
+- Peak Sales Month: February 2023 (4.4K items sold).
+- Most Preferred Payment Method: UPI (1,719 transactions).
+- High Delivery Success Rate: 94.25% of orders were delivered successfully.
 
 ## Conclusion & Future Recommendations
 The Power BI dashboard provides valuable insights into customer preferences, sales trends, and delivery performance.
 
 ### Future Enhancements:
-- ✅ Predictive Analytics – Implement time-series forecasting for future sales trends.
-- ✅ Customer Segmentation – Identify high-value customers based on purchase behavior.
-- ✅ Automated Data Refresh – Connect Power BI to SQL Server for real-time updates.
+- Predictive Analytics – Implement time-series forecasting for future sales trends.
+- Customer Segmentation – Identify high-value customers based on purchase behavior.
+- Automated Data Refresh – Connect Power BI to SQL Server for real-time updates.
 
 By implementing these improvements, we can enhance business decision-making and drive data-driven strategies.
 
