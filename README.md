@@ -27,7 +27,6 @@ Power Query was used to clean and transform the raw datasets before loading them
 ## Data Modeling
 A star schema approach was used for efficient querying and analysis. The key relationships include:
 - Fact Table: Sales_Transactions (stores all transaction details like food items, payment methods, and quantities).
-
 #### Dimension Tables:
 - Date_Dim (to analyze trends over time).
 - Food_Dim (for food category-wise analysis).
@@ -35,7 +34,7 @@ A star schema approach was used for efficient querying and analysis. The key rel
 - Customer_Type_Dim (to differentiate between Gold and Regular members).
 - DAX Functions and Measures Used
 
-## 🛠️ Software Used
+## Software Used
 - 📄 Microsoft Excel – Data Cleaning and Preprocessing
 - 📊 Power BI – Data Visualization and Dashboard Creation
 
@@ -48,7 +47,7 @@ To make insights more accessible and visually appealing, multiple Power BI chart
 - 📑 Matrix Table: Displays food type vs. member type transactions.
 - 📍 Donut Chart: Highlights delivered vs. cancelled orders.
 
-## 📌 Repository Highlights
+## Dashboard Image
 ![image](https://github.com/user-attachments/assets/cbe743da-46e1-496e-8c17-41ee5f7fdf14)
 
 ## Key Insights from the Dashboard
@@ -59,6 +58,7 @@ To make insights more accessible and visually appealing, multiple Power BI chart
 
 ## Conclusion & Future Recommendations
 The Power BI dashboard provides valuable insights into customer preferences, sales trends, and delivery performance.
+
 ### Future Enhancements:
 - ✅ Predictive Analytics – Implement time-series forecasting for future sales trends.
 - ✅ Customer Segmentation – Identify high-value customers based on purchase behavior.
